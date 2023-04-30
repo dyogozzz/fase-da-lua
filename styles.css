@@ -12,8 +12,3 @@ body {
     color: white;
     font-weight: bolder;
 }
-@media (min-width: 700px) {
-    #cards {
-        display: flex;
-    }
-}
