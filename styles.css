@@ -1,0 +1,19 @@
+body {
+    background-image: url(./background_estelar.avif);
+    background-repeat: no-repeat top center/cover;
+}
+
+#card {
+    background-color: #b2b2b2;
+    scale: 0.8;
+}
+
+#h1 {
+    color: white;
+    font-weight: bolder;
+}
+@media (min-width: 700px) {
+    #cards {
+        display: flex;
+    }
+}
