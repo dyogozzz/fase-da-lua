@@ -175,7 +175,7 @@ function defineImgNext() {
 
 function defineImgActual() {
   if (document.getElementById("actualPhase").textContent == "Lua Cheia") {
-    actualImg.src = "./lua-cheia.png";
+    actualImg.src = "../img/lua-cheia.png";
     actualImg.alt = "Foto da Lua Cheia";
     actualImg.title = "Foto da Lua Cheia";
   } else if (document.getElementById("actualPhase").textContent == "Lua Nova") {
