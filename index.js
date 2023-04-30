@@ -125,24 +125,24 @@ function getMoonPhaseData() {
 
 function defineImgLast() {
   if (document.getElementById("nameLastPhase").textContent == "Lua Cheia") {
-    lastImg.src = "./lua-cheia.png";
+    lastImg.src = "../img/lua-cheia.png";
     lastImg.alt = "Foto da Lua Cheia";
     lastImg.title = "Foto da Lua Cheia";
   } else if (
     document.getElementById("nameLastPhase").textContent == "Lua Nova"
   ) {
-    lastImg.src = "./lua-nova.png";
+    lastImg.src = "../img/lua-nova.png";
     lastImg.alt = "Foto da Lua Nova";
     lastImg.title = "Foto da Lua Nova";
     lastImg.style.scale = "0.9";
   } else if (
     document.getElementById("nameLastPhase").textContent == "Lua Minguante"
   ) {
-    lastImg.src = "./lua-minguante.png";
+    lastImg.src = "../img/lua-minguante.png";
     lastImg.alt = "Foto da Lua Minguante";
     lastImg.title = "Foto da Lua Minguante";
   } else {
-    lastImg.src = "./lua-crescente.png";
+    lastImg.src = "../img/lua-crescente.png";
     lastImg.alt = "Foto da Lua Crescente";
     lastImg.title = "Foto da Lua Crescente";
   }
@@ -150,24 +150,24 @@ function defineImgLast() {
 
 function defineImgNext() {
   if (document.getElementById("nextPhase").textContent == "Lua Cheia") {
-    nextImg.src = "./lua-cheia.png";
+    nextImg.src = "../img/lua-cheia.png";
     nextImg.alt = "Foto da Lua Cheia";
     nextImg.title = "Foto da Lua Cheia";
   } else if (document.getElementById("nextPhase").textContent == "Lua Nova") {
-    nextImg.src = "./lua-nova.png";
+    nextImg.src = "../img/lua-nova.png";
     nextImg.alt = "Foto da Lua Nova";
     nextImg.title = "Foto da Lua Nova";
     nextImg.style.scale = "0.9";
   } else if (
     document.getElementById("nextPhase").textContent == "Lua Minguante"
   ) {
-    nextImg.src = "./lua-minguante.png";
+    nextImg.src = "../img/lua-minguante.png";
     nextImg.alt = "Foto da Lua Minguante";
     nextImg.title = "Foto da Lua Minguante";
   } else if (
     document.getElementById("nextPhase").textContent == "Lua Crescente"
   ) {
-    nextImg.src = "./lua-crescente.png";
+    nextImg.src = "../img/lua-crescente.png";
     nextImg.alt = "Foto da Lua Crescente";
     nextImg.title = "Foto da Lua Crescente";
   }
@@ -179,20 +179,20 @@ function defineImgActual() {
     actualImg.alt = "Foto da Lua Cheia";
     actualImg.title = "Foto da Lua Cheia";
   } else if (document.getElementById("actualPhase").textContent == "Lua Nova") {
-    actualImg.src = "./lua-nova.png";
+    actualImg.src = "../img/lua-nova.png";
     actualImg.alt = "Foto da Lua Nova";
     actualImg.title = "Foto da Lua Nova";
     actualImg.style.scale = "0.9";
   } else if (
     document.getElementById("actualPhase").textContent == "Lua Minguante"
   ) {
-    actualImg.src = "./lua-minguante.png";
+    actualImg.src = "../img/lua-minguante.png";
     actualImg.alt = "Foto da Lua Minguante";
     actualImg.title = "Foto da Lua Minguante";
   } else if (
     document.getElementById("actualPhase").textContent == "Lua Crescente"
   ) {
-    actualImg.src = "./lua-crescente.png";
+    actualImg.src = "../img/lua-crescente.png";
     actualImg.alt = "Foto da Lua Crescente";
     actualImg.title = "Foto da Lua Crescente";
   }
